@@ -1,0 +1,106 @@
+.navbar {
+    background: rgb(242, 158, 158);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+    position: relative;
+    padding: 0 10px;
+    box-shadow: 0 2px 3px rgb(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    display: flex;
+    padding: 5px;
+}
+
+.menu {
+    width: 100%;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+}
+
+.menuagregaroculto {
+    display: none;
+}
+
+.menuagregaroculto button {
+    margin-left: 7px;
+}
+
+a:active { color: lime; } 
+
+.menuagregaroculto-lienzo {
+    display: none;
+    flex-direction: row;
+    position: absolute;
+    bottom: -50px;
+    right: 10px;
+    background: white;
+    box-shadow: 0 2px 3px rgb(0, 0, 0, 0.9);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.menuagregaroculto-lienzo button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 0px;
+}
+
+.menuagregaroculto-lienzo form {
+    display: flex;
+}
+
+.menuagregaroculto-lienzo form input {
+    padding: 7px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 5px;
+    border: solid 1px rgb(91, 90, 90);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.menuagregaroculto-lienzo form button {
+    margin: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+    .logo {
+        width: 100%;
+    }
+
+    .menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .logo {
+        justify-content: center;
+    }
+
+    .menuagregar {
+        display: none;
+    }
+
+    .menuagregaroculto {
+        display: flex;
+    }
+}

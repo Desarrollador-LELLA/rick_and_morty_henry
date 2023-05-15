@@ -1,0 +1,20 @@
+.boton {
+    background-color: #0A283E;
+    color: white;
+    font-weight: bold;
+    padding: 7px 7px;
+    border: none;
+    height: 36px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.boton span {
+    text-indent: 7px;
+}

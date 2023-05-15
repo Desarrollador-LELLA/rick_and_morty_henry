@@ -1,0 +1,44 @@
+.card {
+    border: solid 1px #eee;
+    box-shadow: 0 5px 5px rgb(0, 0, 0, 0.5);
+    width: 200px;
+    padding: 10px 15px;
+    margin: 10px auto;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h2 {
+    font-size: 16px;
+    margin: 5px;
+}
+
+.titulo {
+    display: flex;
+    width: 100%;
+}
+
+.titulo a {
+    width: 100%;
+    text-decoration: none;
+}
+
+.titulo a h2 {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 300px) {
+    .card {
+        width: 100%;
+    }
+}

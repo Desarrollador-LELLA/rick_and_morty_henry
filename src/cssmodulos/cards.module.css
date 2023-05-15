@@ -1,0 +1,14 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sincards {
+    margin: auto 0;
+}
+
+.sincards h3 {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}

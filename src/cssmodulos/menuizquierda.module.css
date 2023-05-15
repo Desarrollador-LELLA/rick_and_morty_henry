@@ -1,0 +1,65 @@
+.menu-contenedor {
+    display: none;
+}
+
+.menu-lienzo {
+    position: absolute;
+    display: none;
+    background: rgba(255, 255, 255, 0.3);
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.menu-items {
+    background: rgb(242, 158, 158);
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    box-shadow: 0 2px 620px rgb(0, 0, 0, 1.9);
+}
+
+.menu-items div {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid black;
+    width: 100%;
+    align-items: center;
+    background: rgb(158, 104, 104);
+}
+
+.menu-items div span {
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+.menu-items div button {
+    margin: 7px;
+}
+
+.menu-items a {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    height: 50px;
+    text-decoration: none;
+}
+
+.menu-items a span {
+    width: 100%;
+    text-indent: 10px;
+}
+
+.menu-items a:hover {
+    background: rgb(123, 79, 79);
+}
+
+@media screen and (max-width: 1000px) {
+    .menu-contenedor {
+        display: flex;
+    }
+}
